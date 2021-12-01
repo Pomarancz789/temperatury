@@ -23,7 +23,10 @@ int main() {
     }
     cout << "najnizsza srednia to: " << najnizsza <<", wystapila ona w roku " <<rok << endl;
     
-    
+    if (tab[0][7]<tab[1][7]&&tab[1][7]<tab[2][7]&&tab[2][7]<tab[3][7])
+        cout << "Lipiec jest coraz cieplejszy" <<endl;
+    else
+        cout << "Lipiec nie jest coraz cieplejszy" <<endl;
     
     
     
